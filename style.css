@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#mainBox{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 25%;
+    margin-top: 20px;
+}
+#mainBox .box{
+    display: flex;
+    margin-bottom: 15px;
+}
+#mainBox .box input{
+    width: 100%;
+    height: 8vh;
+    font-size: 20px;
+    border-radius: 50px;
+    padding-left: 50px;
+    background-color: antiquewhite;
+}
+
+#mainBox .box button{
+    width: 30%;
+    border-radius: 50px;
+    background-color: aquamarine;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#mainBox .addBOX{
+    display: flex;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 15px;
+    background-color: aqua;
+}
+
+#mainBox .addBOX p{
+    width: 100%;
+    height: 5vh;
+    text-transform: capitalize;
+    padding-top: 5px;
+    white-space: pre-wrap;
+}
+
+#mainBox .addBOX .buttons{
+    width: 50%;
+    display: flex;
+}
+
+#mainBox .addBOX .buttons .done,
+#mainBox .addBOX .buttons .delet{
+    background-color: aquamarine;
+    border-radius: 50px;
+    width: 50%;
+    font-weight: bolder;
+}
